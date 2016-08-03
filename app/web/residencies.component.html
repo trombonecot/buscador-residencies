@@ -1,1 +1,7 @@
-Hola
+
+  <h2>My residencies</h2>
+  <ul class="residencies">
+    <li *ngFor="let hero of residencies">
+      <span class="badge">{{hero.id}}</span> {{hero.nom}}
+    </li>
+  </ul>
